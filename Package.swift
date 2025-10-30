@@ -488,12 +488,10 @@ let package = Package(
     products: [
         .library(
             name: "Amplify",
-            type: .static,
             targets: ["Amplify"]
         ),
         .library(
             name: "AWSPluginsCore",
-            type: .static,
             targets: ["AWSPluginsCore"]
         ),
         .library(
@@ -502,7 +500,6 @@ let package = Package(
         ),
         .library(
             name: "AWSCognitoAuthPlugin",
-            type: .static,
             targets: ["AWSCognitoAuthPlugin"]
         ),
         .library(
